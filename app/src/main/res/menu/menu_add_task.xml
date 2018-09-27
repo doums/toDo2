@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.todo.app.MainActivity" >
+    <item
+        android:id="@+id/action_confirm_task"
+        android:title="@string/action_confirm_task"
+        android:icon="@drawable/ic_done"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_color"
+        android:title="@string/action_color"
+        android:icon="@drawable/ic_palette"
+        app:showAsAction="ifRoom"/>
+</menu>
